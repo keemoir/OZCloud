@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>源初云 - 云计算源动力.</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Place favicon.ico in the root directory -->
+ <!-- 引入Font Awesome图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"rel="stylesheet">
+        <link href="https://at.alicdn.com/t/font_1715349_s6r9941f63.css" rel="stylesheet">
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <div id="loading-area"></div>
+
+    <!-- Start Header Area -->
+    <header class="header">
+        <div class="navbar-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand logo" href="index.html">
+                                <img class="logo1" src="logo.png" alt="Logo" />
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="active" href="index.html">首页</a>
+                                       
+                                    </li>
+                                    <li class="nav-item"><a href="#">关于</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="about.html">关于我们</a></li>
+                                            <li><a href="download.html">下载软件</a></li>
+                                            <li><a href="privacy-policy.html">隐私策略</a></li>
+                                            <li><a href="faq.html">常见问题</a></li>
+        
+                                            <li><a href="mail-success.html">邮件联系</a></li>
+                                        </ul>
+                                    </li>
+                                   
+                                    <li class="nav-item"><a href="#">支持 </a>
+                                        <ul class="sub-menu">
+                                            <li><a href="https://cdn.origz.com">源初云CDN</a></li>
+                                            <li><a href="https://yp.origz.com">源初云网盘</a></li>
+                                        
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="https://blog.cloud.origz.com">博客</a>
+                                        <ul class="sub-menu">
+                                           <li><a href="https://blog.cloud.origz.com">源初云博客</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="contact.html">联系 </a> </li>
+                                    <li class="nav-item">
+                                   <a href="javacript:" data-toggle="modal" data-target="#login" style="color: #4874ff;">
+                <i class="fas fa-lock" style="font-size: 14px; color: #4874ff; margin-right: 5px;"></i> 登录
+                                    </a>
+                                         </li>
+                                </ul>
+                                
+                            </div>
+                            <!-- navbar collapse -->
+                            <div class="button">
+                                <a href="javacript:" data-toggle="modal" data-target="#signup" class="btn">免费注册</a>
+                            </div>
+                        </nav>
+                        <!-- navbar -->
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </div>
+        <!-- navbar area -->
+    </header>
+    <!-- End Header Area -->
+
+ 
+    <!-- Start Contact Area -->
+    <section id="contact-us" class="contact-us section">
+        <div class="container">
+            <div class="contact-head wow fadeInUp" data-wow-delay=".4s">
+                <div class="row">
+                    <div class="col-lg-7 col-12">
+                        <div class="form-main">
+                            <form class="form" method="post" action="assets/mail/mail.php">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <input name="name" type="text" placeholder="您的名字" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <input name="subject" type="text" placeholder="您的职业"
+                                                required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <input name="email" type="email" placeholder="您的邮箱"
+                                                required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <input name="phone" type="text" placeholder="您的电话"
+                                                required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group message">
+                                            <textarea name="message" placeholder="请在这里填入您的留言："></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group button">
+                                            <button type="submit" class="btn ">发送信息</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="single-head">
+                            <div class="contant-inner-title">
+                                <h3>联系我们</h3>
+                            
+                            </div>
+                            <div class="single-info">
+                                <i class="lni lni-phone"></i>
+                                <ul>
+                                    <li>+1-513-232-2434</li>
+                                </ul>
+                            </div>
+                            <div class="single-info">
+                                <i class="lni lni-envelope"></i>
+                                <ul>
+                                    <li><a href="mailto:cloud@origz.com">cloud@origz.com</a></li>
+                                </ul>
+                            </div>
+                            <div class="single-info">
+                                <i class="lni lni-map"></i>
+                                <ul>
+                                    <li>英属开曼群岛(Cayman Islands)格兰威大道22号</li>
+                                </ul>
+                            </div>
+                            <div class="contact-social">
+                                <h4>关注我们</h4>
+                                
+                                    <ul>
+                            <li><a href="#"><i class="lni lni-wechat"></i></a></li>
+                             <li><a href="#"><i class="fab fa-bilibili"></i></a></li>
+                             <li><a href="#"><i class="fab fa-weibo"></i></a></li>
+                             <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                                 
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+  
+    <!--/ End Contact Area -->
+
+ <!-- Start Clients Area -->
+    <div class="client-logo-section">
+        <div class="container">
+            <div class="client-logo-wrapper">
+                
+            </div>
+        </div>
+    </div>
+    <!-- End Clients Area -->
+    <!-- Login Modal -->
+    <div class="modal fade form-modal" id="login" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog max-width-px-840 position-relative">
+            <button type="button"
+                class="circle-32 btn-reset bg-white pos-abs-tr mt-md-n6 mr-lg-n6 focus-reset z-index-supper"
+                data-dismiss="modal"><i class="lni lni-close"></i></button>
+            <div class="login-modal-main">
+                <div class="row no-gutters">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="heading">
+                                <h3>登录</h3>
+                                <p>登录您的账户以获取更多服务</p>
+                            </div>
+                            <div class="social-login">
+                                <ul>
+       <li><a class="weibo" href="#"><i class="fab fa-weibo"></i> 微博登录</a></li>
+      <li><a class="wechat" href="#"><i class="fab fa-weixin"></i> 微信登录</a></li>
+      <li><a class="qq" href="#"><i class="fab fa-qq"></i> QQ登录</a></li>
+                              </ul>
+                            </div>
+                            <div class="or-devider">
+                                <span>Or</span>
+                            </div>
+                            <form action="/">
+                                <div class="form-group">
+                                    <label for="email" class="label">邮箱登录</label>
+                                    <input type="email" class="form-control" placeholder="请输入您的邮箱" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="label">密码</label>
+                                    <div class="position-relative">
+                                        <input type="password" class="form-control" id="password"
+                                            placeholder="请输入密码">
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex flex-wrap justify-content-between">
+                                    <!-- Default checkbox -->
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label" for="flexCheckDefault">记住此次登录</label>
+                                    </div>
+                                    <a href="" class="font-size-3 text-dodger line-height-reset">忘记密码</a>
+                                </div>
+                                <div class="form-group mb-8 button">
+                                    <button class="btn ">登录
+                                    </button>
+                                </div>
+                                <p class="text-center create-new-account">还没有账号? <a href="#">创建免费账号</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Login Modal -->
+
+    <!-- Signup Modal -->
+    <div class="modal fade form-modal" id="signup" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog max-width-px-840 position-relative">
+            <button type="button"
+                class="circle-32 btn-reset bg-white pos-abs-tr mt-md-n6 mr-lg-n6 focus-reset z-index-supper"
+                data-dismiss="modal"><i class="lni lni-close"></i></button>
+            <div class="login-modal-main">
+                <div class="row no-gutters">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="heading">
+                                <h3>注册</h3>
+                                <p>创建您的账号以继续服务</p>
+                            </div>
+                            
+                            <div class="or-devider">
+                                 <h3> </h3>
+                                  <br> 
+                                  <h3> </h3>
+                            </div>
+                            <form action="/">
+                                <div class="form-group">
+                                    <label for="email" class="label">邮箱注册</label>
+                                    <input type="email" class="form-control" placeholder="请输入您的邮箱">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="label">密码</label>
+                                    <div class="position-relative">
+                                        <input type="password" class="form-control"
+                                            placeholder="请输入密码">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="label">重复密码</label>
+                                    <div class="position-relative">
+                                        <input type="password" class="form-control"
+                                            placeholder="请再次输入密码">
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex flex-wrap justify-content-between">
+                                    <!-- Default checkbox -->
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="">
+                                        <label class="form-check-label" for="flexCheckDefault">同意 <a
+                                                href="#">用户协议 & 隐私条款</a></label>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-8 button">
+                                    <button class="btn ">注册
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Signup Modal -->
+ 
+    <!-- Start Footer Area -->
+    <footer class="footer">
+       
+        <!-- Start Middle Top -->
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="f-about single-footer">
+                            <div class="logo">
+                                <a href="index.html"><img src="logo.png" alt="Logo"></a>
+                            </div>
+                            <p>关注云资讯，随时随地运维管控云服务</p>
+                            <ul class="contact-address">
+                                
+                                <li><span>邮箱:</span> cloud@origz.com</li>
+                                <li><span>电话:</span> +1-513-232-2434</li>
+                                <li><span>地址:</span> 英属开曼群岛(Cayman Islands)格兰威大道22号</li>
+                            </ul>
+                            <div class="footer-social">
+<ul>
+  <li><a href="#"><i class="lni lni-wechat"></i></a></li>
+  <li><a href="#"><i class="fab fa-bilibili"></i></a></li>
+  <li><a href="#"><i class="fab fa-weibo"></i></a></li>
+  <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+</ul>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <!-- Single Widget -->
+                                <div class="single-footer f-link">
+                                    <h3>文档与社区</h3>
+                                    <ul>
+                                        <li><a href="document.html">产品文档</a></li>
+                                        <li><a href="#">常见问题</a></li>
+                                        <li><a href="#">API 中心</a></li>
+                                        <li><a href="#">服务条款</a></li>
+                                        <li><a href="#">资源与社区</a></li>
+                                        <li><a href="#">开发者社区</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <!-- End Single Widget -->
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <!-- Single Widget -->
+                                <div class="single-footer f-link">
+                                    <h3>关于我们</h3>
+                                    <ul>
+                                        <li><a href="#">公司简介</a></li>
+                                        <li><a href="#">加入我们</a></li>
+                                        <li><a href="#">联系我们</a></li>
+                                        <li><a href="#">合作伙伴</a></li>
+                                        <li><a href="#">Open Talk</a></li>
+                                        <li><a href="#">媒体报道</a></li>
+                                    </ul>
+                                </div>
+                                <!-- End Single Widget -->
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <!-- Single Widget -->
+                                <div class="single-footer newsletter">
+                                    <h3>订阅我们的最新动态</h3>
+                                    <p>订阅以获取最新优惠云产品及活动...</p>
+                                    <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
+                                        <input name="EMAIL" placeholder="输入您的邮箱地址" class="common-input"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = '输入您的邮箱地址'" required="" type="email">
+                                        <div class="button">
+                                            <button class="btn">现在订阅! <span class="dir-part"></span></button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- End Single Widget -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Middle -->
+        <!-- Start Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="left">
+                                <p><a target="_blank" href="http://cloud.origz.com/" title="源初科技">Copyright © 2023 - 2024 源初科技（ORIG ZERO）版权所有</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="right">
+                                <ul>
+                                 
+                                    <li><a href="#">ICP备案:</a></li>
+                                    <li><a href="#">源初云工作室  </a></li>
+                                    <li><a href="#">京ICP备xxxxxx号</a></li>
+                                    <li><a href="#">|</a></li>
+                                    <li><a href="#">京公网安备号xxxxxx </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Middle -->
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="lni lni-chevron-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        //====== Clients Logo Slider
+        tns({
+            container: '.client-logo-carousel',
+            slideBy: 'page',
+            autoplay: true,
+            autoplayButtonOutput: false,
+            mouseDrag: true,
+            gutter: 15,
+            nav: false,
+            controls: false,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                540: {
+                    items: 2,
+                },
+                768: {
+                    items: 3,
+                },
+                992: {
+                    items: 4,
+                },
+                1170: {
+                    items: 6,
+                }
+            }
+        });
+        //========= testimonial 
+        tns({
+            container: '.testimonial-slider',
+            items: 1,
+            slideBy: 'page',
+            autoplay: false,
+            mouseDrag: true,
+            gutter: 0,
+            nav: false,
+            controls: true,
+            controlsText: ['<i class="lni lni-arrow-left"></i>', '<i class="lni lni-arrow-right"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                540: {
+                    items: 1,
+                },
+                768: {
+                    items: 1,
+                },
+                992: {
+                    items: 1,
+                },
+                1170: {
+                    items: 1,
+                }
+            }
+        });
+
+        //========= glightbox
+        GLightbox({
+            'href': '#',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+            'autoplayVideos': true,
+        });
+    </script>
+</body>
+
+</html>
